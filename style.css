@@ -71,3 +71,25 @@ main button .button-text {
     font-size: 11px;
 }
 
+.nav-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #222222;
+    padding: 0 15px;
+}
+
+.nav-btns button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #686464;
+    color: #ccc;
+    border-radius: 25px;
+    border: none;
+}
+
+.nav-btns button.chosen-btn {
+    color: #fff;
+    background-color: goldenrod;
+}
