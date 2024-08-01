@@ -52,12 +52,22 @@ div.profile-image img{
     justify-content: center;
     margin: 20px 60px;
     font-family: 'poppins',sans-serif;
+    line-height: 2rem;
 }
 
 main button {
     background-color: transparent;
     color: #fff;
-    padding: 10px;
     border: 1px solid goldenrod;
     border-radius: 20px;
+    width: 170px;
+    height: 50px;
 }
+
+
+
+main button .button-text {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
