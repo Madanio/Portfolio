@@ -64,3 +64,20 @@ main{
     margin: 20px;
     font-size: 30px;
 }
+
+.infos-container table {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.infos-container tr td {
+    color: gray;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.infos-container tr td span {
+    color: #fff;
+}
