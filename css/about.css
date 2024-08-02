@@ -80,6 +80,7 @@ main{
 
 .infos-container tr td span {
     color: #fff;
+    display: block;
 }
 
 main button {
@@ -100,4 +101,10 @@ main button:hover {
 main button .button-text {
     text-transform: uppercase;
     font-size: 11px;
+}
+
+main hr {
+    border: 1px solid #727272;
+    width: 300px;
+    margin: auto;
 }
