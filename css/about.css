@@ -81,3 +81,23 @@ main{
 .infos-container tr td span {
     color: #fff;
 }
+
+main button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+    margin: 30px;
+}
+
+main button:hover {
+    background-color: goldenrod;
+}
+
+
+main button .button-text {
+    text-transform: uppercase;
+    font-size: 11px;
+}
