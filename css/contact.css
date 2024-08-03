@@ -40,34 +40,38 @@ section {
 }
 
 p {
-    color: #aaaaaa;
     text-align: center;
+    padding-top: 10px;
 }
 
 .informations-box {
-    display: flex;
-    justify-content: space-around;
     margin-bottom: 20px;
 }
 
-.informations-box div {
-    text-align: center;
+.informations-box .child-box {
+    display: flex;
 }
 
 .informations-box i {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 10px;
     color: #FFD700;
+    padding: 20px;
 }
 
 .informations-box span {
     display: block;
     font-weight: bold;
+    color: #8d8989;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-size: 20px
 }
 
 a {
     color: #FFD700;
     text-decoration: none;
+    padding-top: 10px;
 }
 
 .social-media-btns {
