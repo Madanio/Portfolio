@@ -56,7 +56,10 @@ main hr {
 
 
 .page-title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
     text-align: center;
+    margin: 30px;
     font-size: 50px;
 }
 
