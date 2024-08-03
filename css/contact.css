@@ -6,20 +6,142 @@
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    background-color: #000;
+    background-color: #141414;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
     color: #fff;
 }
 
+h1 span {
+    color: #FFD700;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    color: #aaaaaa;
+    text-align: center;
+}
+
+.informations-box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.informations-box div {
+    text-align: center;
+}
+
+.informations-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+.informations-box span {
+    display: block;
+    font-weight: bold;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.social-media-btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-media-btns span {
+    margin: 0 10px;
+}
+
+.social-media-btns i {
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.social-media-btns i:hover {
+    color: #FFD700;
+}
+
+.contact-form {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm input,
+#contactForm textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+#contactForm input::placeholder,
+#contactForm textarea::placeholder {
+    color: #888;
+}
+
+#contactForm button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFD700;
+    color: #141414;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+    background-color: #e6be00;
+}
 
 .nav-btns {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:  #222222;
+    background-color: #222;
     padding: 0 15px;
     position: fixed;
     bottom: 0;
@@ -39,10 +161,4 @@ body {
 .nav-btns a.chosen-btn {
     color: #fff;
     background-color: goldenrod;
-}
-
-main{
-    width: 100%;
-    font-family: 'poppins' , sans-serif;
-    margin-bottom: 50px;
 }
