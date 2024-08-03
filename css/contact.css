@@ -57,7 +57,7 @@ p.paragraphe-contact {
     font-size: 30px;
     margin-bottom: 10px;
     color: #FFD700;
-    padding: 20px;
+    padding: 30px;
 }
 
 .informations-box span {
@@ -94,7 +94,6 @@ a {
 .social-media-btns i:hover {
     color: #FFD700;
 }
-
 
 .nav-btns {
     display: flex;
